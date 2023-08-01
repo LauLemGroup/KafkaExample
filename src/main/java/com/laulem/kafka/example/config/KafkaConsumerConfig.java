@@ -1,4 +1,4 @@
-package com.laulem.KafkaExample.config;
+package com.laulem.kafka.example.config;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;

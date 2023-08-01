@@ -1,4 +1,4 @@
-package com.laulem.KafkaExample;
+package com.laulem.kafka.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
