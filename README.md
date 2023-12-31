@@ -52,5 +52,5 @@ bin/kafka-console-consumer.sh --topic output-topic3 --from-beginning --bootstrap
 - **Kafka Connect** (not in this project): A tool for connecting Kafka with various data sources and destinations (such as databases, file systems, etc.). Kafka Connect is used for importing data into Kafka and exporting data from Kafka to other systems.
 
 ### URL
-Kafka: https://kafka.apache.org/
-Tutorials: https://www.baeldung.com/apache-kafka / https://codingharbour.com/apache-kafka/what-is-a-consumer-group-in-kafka/
+- Kafka: https://kafka.apache.org/
+- Tutorials: https://www.baeldung.com/apache-kafka / https://codingharbour.com/apache-kafka/what-is-a-consumer-group-in-kafka/
