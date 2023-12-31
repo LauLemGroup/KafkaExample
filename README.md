@@ -46,6 +46,11 @@ bin/kafka-console-consumer.sh --topic output-topic3 --from-beginning --bootstrap
 - A **group ID** identifies a consumer group in Kafka. All consumers sharing the same Group ID are considered part of the same consumer group. Used for offset management and distributing messages among consumers. Kafka ensures that each message from a partition is consumed by only one consumer in the group.
 - A **consumer ID** is a unique identifier for each consumer within a group. It is usually assigned automatically by Kafka and can be based on information such as the consumer's IP address and port. Used to individually identify consumers within a group, particularly useful during consumer rebalancing and for tracking performance or issues.
 
+### Kafka tools
+- **Apache Kafka Core**: This is the basic Kafka system, including the Kafka broker server, message producers and consumers, and topic managers.
+- **Kafka Streams**: A data streaming framework for building real-time data processing applications. Kafka Streams enables the transformation, aggregation, and processing of data continuously directly from Kafka topics.
+- **Kafka Connect** (not in this project): A tool for connecting Kafka with various data sources and destinations (such as databases, file systems, etc.). Kafka Connect is used for importing data into Kafka and exporting data from Kafka to other systems.
+
 ### URL
 Kafka: https://kafka.apache.org/
 Tutorials: https://www.baeldung.com/apache-kafka / https://codingharbour.com/apache-kafka/what-is-a-consumer-group-in-kafka/
