@@ -54,3 +54,4 @@ bin/kafka-console-consumer.sh --topic output-topic3 --from-beginning --bootstrap
 ### URL
 - Kafka: https://kafka.apache.org/
 - Tutorials: https://www.baeldung.com/apache-kafka / https://codingharbour.com/apache-kafka/what-is-a-consumer-group-in-kafka/
+- Cluster: https://www.confluent.io/fr-fr/blog/what-is-an-apache-kafka-cluster/ / https://kafka.apache.org/documentation/#basic_ops_cluster_expansion
