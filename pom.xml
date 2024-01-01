@@ -9,9 +9,8 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.laulem</groupId>
-    <artifactId>KafkaExample</artifactId>
+    <artifactId>kafka.example</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>KafkaExample</name>
     <description>Kafka Spring Boot Example</description>
     <properties>
         <java.version>17</java.version>
